@@ -270,5 +270,5 @@ Data Analyst | Lagos, Nigeria
 ---
 
 Last updated: June 2026
----
+
 
