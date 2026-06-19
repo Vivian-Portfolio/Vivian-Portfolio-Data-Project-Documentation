@@ -220,7 +220,6 @@ group by gender;
 
 ## 8. Key Insights
 
-
 1. **The average patient age is 41 years** - indicating the hospital primarily serves a middle-aged adult population, which may influence the types of conditions and treatments most in demand.
 
 2. **27 patients were diagnosed with hypertension** - making it one of the most common diagnoses in the dataset, suggesting a significant portion of the patient population has cardiovascular health concerns.
@@ -233,132 +232,43 @@ group by gender;
 
 6. **May and August recorded the highest patient visits (11 each), while November had the lowest (3)** - indicating clear seasonal patterns in hospital attendance that could inform staffing and resource planning.
 
-7. **Gender distribution is nearly equal — Male 52, Female 48** — showing the hospital serves both genders almost equally with a slight male majority.
+7. **Gender distribution is nearly equal - Male 52, Female 48** - showing the hospital serves both genders almost equally with a slight male majority.
 ---
 
-## 10. Recommendations
-
-<!--
-  Action-oriented. Addressed to a real audience.
-  Tied explicitly to the insight that supports each one.
-
-  WHAT GOOD LOOKS LIKE:
-  Priority: High
-  Recommendation: "Conduct a fulfilment audit for home goods deliveries
-                   in Region A - specifically investigating whether returns
-                   correlate with a particular warehouse, carrier, or SKU batch."
-  Based On: Insight 1 - return rate anomaly in Region A
-  Owner: Operations / Supply Chain team
-
-  WHAT TO AVOID:
-  ❌ "Improve the return rate."
-     (Not actionable. Doesn't say who, how, or where to start.)
-  ❌ "Further analysis is needed."
-     (This is a placeholder, not a recommendation.)
--->
+## 9. Recommendations
 
 | Priority | Recommendation | Based On | Suggested Owner |
 |----------|---------------|----------|-----------------|
-| High | [Specific, actionable step] | [Insight it comes from] | [Who should act] |
-| Medium | [Specific, actionable step] | [Insight it comes from] | [Who should act] |
-| Low | [Exploratory or longer-term suggestion] | [Insight it comes from] | [Who should act] |
+| High | Develop a dedicated hypertension management programme including regular screening and follow-up appointments for at-risk patients | Insight 2 - 27 patients diagnosed with hypertension, one of the most common conditions | Clinical / Medical team |
+| High | Increase staffing and medical supplies in May and August to meet peak patient demand | Insight 6 - May and August recorded the highest visits at 11 patients each | Hospital Operations team |
+| Medium | Introduce cholesterol monitoring and dietary counselling for all diabetic patients given their average cholesterol of 203 mg/dL | Insight 4 - Diabetic patients show borderline high cholesterol levels | Nutrition / Clinical team |
+| Medium | Investigate why the North region has the highest patient count - whether it reflects population size, referral patterns, or lack of alternative healthcare facilities | Insight 3 - North region has the highest patient concentration | Hospital Management |
+| Low | Review November staffing levels downward to manage costs during the lowest attendance period of the year | Insight 6 - November recorded only 3 patient visits | Hospital Operations team |
 
 ---
 
-## 11. Assumptions & Limitations
-
-<!--
-  WHAT GOOD LOOKS LIKE:
-  Assumption: "Transaction records were assumed to be complete for all five regions.
-               No validation was performed against source system record counts."
-  Limitation: "The analysis cannot distinguish between returns initiated by
-               the customer vs. returns initiated by the business (e.g., recalls).
-               If business-initiated returns are concentrated in Region A, the
-               return rate finding may reflect a policy decision, not a quality issue."
-
-  WHAT TO AVOID:
-  ❌ Leaving this section blank or writing "None known."
-     Every project has limitations. Documenting them is a sign of
-     analytical maturity - not a confession of failure.
--->
-
-### Assumptions
-- [What did you treat as true without being able to verify?]
-- [What simplifications did you make for scope or feasibility?]
-- [What domain rules or definitions did you accept as given?]
-
-### Limitations
-- [What gaps exist in the data?]
-- [What analysis was out of scope but could affect interpretation?]
-- [What would a more rigorous version of this project include?]
-- [Are there known biases in the data source or collection method?]
-
-> *The goal here is pre-emptive Q&A. What would a thoughtful skeptic push back on? Document the answer here, before they ask.*
-
----
-
-## 12. Future Enhancements
-
-<!--
-  WHAT GOOD LOOKS LIKE:
-  ✅ "Automate the monthly data pull from the POS export folder using
-      a scheduled Python script, replacing the current manual process."
-  ✅ "Expand the return rate analysis to include carrier-level data,
-      which was unavailable in this dataset but exists in the logistics system."
-
-  WHAT TO AVOID:
-  ❌ "Add a machine learning model."
-     (Vague, and disconnected from the actual findings of this project.)
-  ❌ Listing aspirational features that don't follow logically from the work.
--->
-
-- [ ] [Enhancement 1 - specific and traceable to a real gap in this project]
-- [ ] [Enhancement 2]
-- [ ] [Enhancement 3]
-- [ ] [Enhancement 4]
-
----
-
-## 13. Deliverables
+## 10. Deliverables
 
 | Deliverable | Description | Location |
 |-------------|-------------|----------|
-| [Name] | [What it contains] | [`/path/to/file`] |
-| [Name] | [What it contains] | [`/path/to/file`] |
-| [Name] | [What it contains] | [`/path/to/file`] |
+| SQL Query File | All 8 queries written and executed in MySQL Workbench | queries/final/gilead_hospital_queries.sql |
+| Summary Report | Written Word document summarizing findings and insights | reports/Gilead_Hospital_Patient_Analysis_Report.docx |
+| Raw Dataset | Original patient dataset file | data/raw/ |
+| Query Screenshots | Selected screenshots of query results from MySQL Workbench | visuals/ |
 
 ---
 
-## 14. Author
+## 11. Author
 
-**[Your Name]**
-[Your role or title - current or target]
+*Vivian Okwara*
+Data Analyst | Lagos, Nigeria
 
-- 🔗 [LinkedIn URL]
-- 💼 [Portfolio or GitHub profile URL]
-- 📧 [Email - optional]
-
----
-
-*Last updated: [Month YYYY]*
-*If this template helped you, consider starring the repository.*
-
-
-# [Project Title]
-> *One sentence. What did you analyze, build, or solve - and why does it matter?*
+- 🔗 [LinkedIn](https://linkedin.com/in/okwara-vivian)
+- 🌐 [Portfolio](https://Vivian-Portfolio.github.io)
+- 📧 okwaravivian26@gmail.com
 
 ---
 
-## ⚙️ Project Type Flags
-> *Check what applies. This helps reviewers and collaborators understand the nature of the work at a glance. Delete this block before publishing.*
-
-- [ ] Exploratory Data Analysis (EDA)
-- [ ] SQL Analysis / Querying
-- [ ] Dashboard / Data Visualization
-- [ ] Data Pipeline / ETL
-- [ ] Predictive Modelling / Machine Learning
-- [ ] Data Cleaning / Wrangling
-- [ ] End-to-End (multiple of the above)
-- [ ] Other: ___________
-
+Last updated: June 2026
 ---
+
