@@ -5,8 +5,6 @@ This mini project uses real patient data to demonstrate how **SQL can be used** 
 ---
 
 ## ⚙️ Project Type Flags
-> *Check what applies. This helps reviewers and collaborators understand the nature of the work at a glance. Delete this block before publishing.*
-
 - [ ] Exploratory Data Analysis (EDA)
 - [x] SQL Analysis / Querying
 - [ ] Dashboard / Data Visualization
