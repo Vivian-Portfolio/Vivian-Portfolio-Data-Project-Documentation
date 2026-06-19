@@ -185,19 +185,11 @@ select month(str_to_date(visit_date, '%d/%m/%Y')) as monthnum,
 from bam_in_gilead_hospital.patient
 group by monthnum, Visit_Month
 order by monthnum;
--- The number of patients that visited the hospital each month are as follow
-	January   6
-	February  8
-	March	  9
-	April	  10
-	May	      11
-	June	  10
-	July	  10
-	August	  11
-	September 9
-	October	  8
-	November  3
-    December  5
+-- Result:* Patient visits vary by month as follows:
+- January: 6, February: 8, March: 9, April: 10, May: 11, June: 10
+- July: 10, August: 11, September: 9, October: 8, November: 3, December: 5
+
+Peak months are May and August (11 patients each). November recorded the lowest visits (3 patients).
 ```
 **-- Q7 What is the distribution of patients gender?*
 ```sql
