@@ -187,16 +187,17 @@ order by monthnum;
 ```
 **-- Q7 What is the distribution of patients gender?*
 ```sql
-select gender, count(*) as patientcount
-from bam_in_gilead_hospital.patient
-group by gender; 
-```
-```set sql_safe_updates = 0;
+set sql_safe_updates = 0;
 
 update bam_in_gilead_hospital.patient
 set gender = 'Male'
 where patient_id = 99;
+
+select gender, count(*) as patientcount
+from bam_in_gilead_hospital.patient
+group by gender; 
 ```
+
 
 
 ### Option A - Embedded Image
