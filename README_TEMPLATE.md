@@ -140,7 +140,7 @@ The dataset contains 100 patient records from `Bam in Gilead Hospital`.
 ---
 
 ## 7. SQL Analysis & Queries
-** Q1: What is the average age of patients visiting Bam in Gilead Hospital?*
+### Q1: What is the average age of patients visiting Bam in Gilead Hospital?
 ```sql
 select avg(age) as Averageage
 from bam_in_gilead_hospital.patient;
