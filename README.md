@@ -147,20 +147,20 @@ The dataset contains 100 patient records from `Bam in Gilead Hospital`.
 ---
 
 ## 7. SQL Analysis & Queries
-**Q1: What is the average age of patients visiting Bam in Gilead Hospital?*
+** Q1: What is the average age of patients visiting Bam in Gilead Hospital?*
 ```sql
 select avg(age) as Averageage
 from bam_in_gilead_hospital.patient;
 -- The aveeage age of the patients is 41
 ```
-**Q2 How many patients has been diagnosed with hypertention?*
+** Q2 How many patients has been diagnosed with hypertention?*
 ``` sql
 select count(*) as Patientcount_Hypertention
 from bam_in_gilead_hospital.patient
 where diagnosis = 'Hypertension'; 
 -- 27 pateints were diagnosed with Hypertension
 ```
-**-- Q3 Which region has the highest number of patients?*
+** Q3 Which region has the highest number of patients?*
 ``` sql
 select region, count(*) as Patientcount
 from bam_in_gilead_hospital.patient
@@ -168,14 +168,14 @@ group by region
 order by patientcount desc;
 -- The north has the hightest number of patients
 ```
-**-- Q4 What is the average cholesterol level for patients with diabetes?*
+** Q4 What is the average cholesterol level for patients with diabetes?*
 ``` sql
 select avg(cholesterol_mg_dl) as AvgCholesterol_diabetics
 from bam_in_gilead_hospital.patient
 where diagnosis ='Diabetes';
 -- The average cholesterol for pateints with diabestes is 203
 ```
-**-- Q5 Which medication is prescribed most often?*
+** Q5 Which medication is prescribed most often?*
  ``` sql
  select medication,count(*) as Prescription_count
  from bam_in_gilead_hospital.patient
@@ -184,7 +184,7 @@ where diagnosis ='Diabetes';
  order by 2 desc;
  -- The most prescribed medication is Tamiflu
 ```
-**- Q6 How patients visited the hospital in each month of the year?*
+** Q6 How patients visited the hospital in each month of the year?*
 ```sql
 select month(str_to_date(visit_date, '%d/%m/%Y')) as monthnum,
 	monthname(str_to_date(visit_date, '%d/%m/%Y')) as Visit_Month,
@@ -198,7 +198,7 @@ order by monthnum;
 
 Peak months are May and August (11 patients each). November recorded the lowest visits (3 patients).
 ```
-**-- Q7 What is the distribution of patients gender?*
+** Q7 What is the distribution of patients gender?*
 ```sql
 set sql_safe_updates = 0;
 
