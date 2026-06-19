@@ -35,7 +35,7 @@ This mini project uses real patient data to demonstrate how **SQL can be used** 
 
 ## 1. Project Overview
 
-**Context:**Bam in Gilead Hospital is a healthcare centre that serves patients across different regions of Nigeria. The hospital collects data on patient visits, diagnoses, medications, cholesterol levels, blood pressure, and demographics.
+**Context:** Bam in Gilead Hospital is a healthcare centre that serves patients across different regions of Nigeria. The hospital collects data on patient visits, diagnoses, medications, cholesterol levels, blood pressure, and demographics.
 
 **Problem Statement:**  The hospital had patient records stored in a database but no structured analysis to answer key operational and clinical questions - such as which regions have the most patients, what conditions are most common, and which medications are most prescribed.
 
