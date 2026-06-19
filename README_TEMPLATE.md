@@ -169,7 +169,8 @@ where diagnosis ='Diabetes';
 -- The average cholesterol for pateints with diabestes is 203
 ```
 **-- Q5 Which medication is prescribed most often?*
- ```select medication,count(*) as Prescription_count
+ ``` sql
+ select medication,count(*) as Prescription_count
  from bam_in_gilead_hospital.patient
  where medication <> 'None'
  group by medication
