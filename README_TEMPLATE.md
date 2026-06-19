@@ -37,7 +37,7 @@ This mini project uses real patient data to demonstrate how **SQL can be used** 
 
 **Context:**Bam in Gilead Hospital is a healthcare centre that serves patients across different regions of Nigeria. The hospital collects data on patient visits, diagnoses, medications, cholesterol levels, blood pressure, and demographics.
 
-**Problem Statement:**  The hospital had patient records stored in a database but no structured analysis to answer key operational and clinical questions — such as which regions have the most patients, what conditions are most common, and which medications are most prescribed.
+**Problem Statement:**  The hospital had patient records stored in a database but no structured analysis to answer key operational and clinical questions - such as which regions have the most patients, what conditions are most common, and which medications are most prescribed.
 
 **Approach:** Used SQL in MySQL Workbench to query the patient database, writing structured queries using SELECT, WHERE, GROUP BY, ORDER BY, aggregate functions (AVG, COUNT), date functions (STR_TO_DATE, MONTH, MONTHNAME), and DML statements (UPDATE) to answer seven key business questions about the patient population.
 
@@ -48,7 +48,7 @@ This mini project uses real patient data to demonstrate how **SQL can be used** 
 ## 2. Objectives
 
 - **Primary Objective:** Write and execute SQL queries in MySQL Workbench to analyze a hospital patient dataset and extract meaningful clinical and operational insights.
-- **Secondary Objective 1:** Identify patient demographic patterns — including age distribution, gender breakdown, and regional distribution.
+- **Secondary Objective 1:** Identify patient demographic patterns - including age distribution, gender breakdown, and regional distribution.
 - **Secondary Objective 2:** Analyze clinical data to determine the most common diagnoses, most prescribed medications, and average cholesterol levels among diabetic patients.
 - **Secondary Objective 3:** Examine patient visit patterns across months to identify peak and low attendance periods.
 - **Secondary Objective 4:** Demonstrate practical SQL skills including aggregate functions, date functions, filtering, grouping, sorting, and data updates.
@@ -64,7 +64,7 @@ This mini project uses real patient data to demonstrate how **SQL can be used** 
 | Dimension | Details |
 |------------|---------|
 | **In Scope** | Patient-level records including demographics, diagnoses, medications, cholesterol levels, blood pressure, visit dates, and regional data |
-| **Out of Scope** | Hospital financial data, staff records, and treatment outcomes — these were not available in the dataset |
+| **Out of Scope** | Hospital financial data, staff records, and treatment outcomes - these were not available in the dataset |
 | **Time Period** | Patient visit records across multiple months within the dataset period |
 | **Granularity** | Row-level patient data (one row per patient record) |
 
@@ -110,7 +110,7 @@ Vivian-Portfolio-Bam-in-Gilead-Hospital-Analysis/
 
 1. **Source:** One patient table (bam_in_gilead_hospital.patient) containing 100 patient records with demographics, diagnoses, medications, cholesterol levels, blood pressure, visit dates, and regional data.
 2. **Ingestion:** Dataset loaded into MySQL Workbench as a structured database table (bam_in_gilead_hospital).
-3. **Cleaning:** Identified and corrected a data entry error — Patient ID 99 had an incorrect gender value which was updated using an UPDATE statement with safe update mode disabled temporarily.
+3. **Cleaning:** Identified and corrected a data entry error - Patient ID 99 had an incorrect gender value which was updated using an UPDATE statement with safe update mode disabled temporarily.
 4. **Analysis:** Wrote and executed 7 SQL queries covering aggregate analysis, filtering, grouping, sorting, date extraction, and data updates to answer key clinical and operational questions.
 5. **Output:** Query results documented in README, SQL script saved as a .sql file, selected screenshots of query outputs saved in the visuals/ folder, and a written summary report saved in the reports/ folder.
 ---
