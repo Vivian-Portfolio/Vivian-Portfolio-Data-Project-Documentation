@@ -1,14 +1,18 @@
-# [Project Title]
-> *One sentence. What did you analyze, build, or solve - and why does it matter?*
+# Bam in Gilead Hopsital - Patient Data Analysis uisng SQL 
+> Bam in Gilead Hospital is a healthcare center that serves patients across different regions. The hospital collects data on patient visits, diagnoses, medications, cholesterol levels, and demographics.
 
 ---
 
 ## ⚙️ Project Type Flags
 > *Check what applies. This helps reviewers and collaborators understand the nature of the work at a glance. Delete this block before publishing.*
 
-- [ ] SQL Analysis / Querying
+- [ ] Exploratory Data Analysis (EDA)
+- [x] SQL Analysis / Querying
 - [ ] Dashboard / Data Visualization
-- [ ] Data Cleaning / Wrangling
+- [ ] Data Pipeline / ETL
+- [ ] Predictive Modelling / Machine Learning
+- [x] Data Cleaning / Wrangling
+- [ ] End-to-End (multiple of the above)
 - [ ] Other: ___________
 
 ---
@@ -20,14 +24,11 @@
 4. [Repository Structure](#4-repository-structure)
 5. [Data Workflow](#5-data-workflow)
 6. [Data Model & Schema](#6-data-model--schema)
-7. [ERD - Entity Relationship Diagram](#7-erd--entity-relationship-diagram) *(SQL projects)*
-8. [Analysis & Metrics](#8-analysis--metrics)
-9. [Key Insights](#9-key-insights)
-10. [Recommendations](#10-recommendations)
-11. [Assumptions & Limitations](#11-assumptions--limitations)
-12. [Future Enhancements](#12-future-enhancements)
-13. [Deliverables](#13-deliverables)
-14. [Author](#14-author)
+7. [Analysis & Metrics](#7-analysis--metrics)
+8. [Key Insights](#8-key-insights)
+9. [Recommendations](#9-recommendations)
+10. [Deliverables](#10-deliverables)
+11. [Author](#11-author)
 
 ---
 
