@@ -202,7 +202,7 @@ where patient_id = 99;
 select gender, count(*) as patientcount
 from bam_in_gilead_hospital.patient
 group by gender;
--- The distribution of gender is Male 52 and Female 48
+-- *Result:* The distribution of gender is Male 52 and Female 48.
 ```
 
 
