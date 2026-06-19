@@ -220,36 +220,20 @@ group by gender;
 
 ## 8. Key Insights
 
-<!--
-  Findings + implications. Not just what happened - what it means.
 
-  WHAT GOOD LOOKS LIKE:
-  ✅ "Return rates, not sales volume, explain Region A's underperformance.
-      Region A's return rate on home goods was 34% - more than double the
-      company average. Revenue was not lost at the point of sale; it was
-      lost post-sale through refunds. This points to a fulfilment or
-      product quality issue specific to that region, not a demand problem."
+1. **The average patient age is 41 years** - indicating the hospital primarily serves a middle-aged adult population, which may influence the types of conditions and treatments most in demand.
 
-  WHAT TO AVOID:
-  ❌ "Region A had lower revenue than other regions in Q4."
-     (That's an observation. It describes what happened.
-      An insight says what it means and where to look next.)
+2. **27 patients were diagnosed with hypertension** - making it one of the most common diagnoses in the dataset, suggesting a significant portion of the patient population has cardiovascular health concerns.
 
-  Aim for 3–6 insights. Quality over quantity.
--->
+3. **The North region has the highest number of patients** - indicating either a larger population base, greater healthcare awareness, or stronger hospital accessibility in that region compared to others.
 
-**Insight 1: [Short descriptive headline]**
-[What you found + what it suggests. One short paragraph.]
+4. **The average cholesterol level for diabetic patients is 203 mg/dL** - this is borderline high, suggesting diabetic patients at this hospital may also be at elevated risk for cardiovascular complications.
 
-**Insight 2: [Short descriptive headline]**
-[What you found + what it suggests.]
+5. **Tamiflu is the most prescribed medication** - suggesting respiratory and flu-related conditions are common among the patient population, particularly given the dataset also includes Flu as a diagnosis.
 
-**Insight 3: [Short descriptive headline]**
-[What you found + what it suggests.]
+6. **May and August recorded the highest patient visits (11 each), while November had the lowest (3)** - indicating clear seasonal patterns in hospital attendance that could inform staffing and resource planning.
 
-**Insight 4 (if applicable): [Short descriptive headline]**
-[What you found + what it suggests.]
-
+7. **Gender distribution is nearly equal — Male 52, Female 48** — showing the hospital serves both genders almost equally with a slight male majority.
 ---
 
 ## 10. Recommendations
