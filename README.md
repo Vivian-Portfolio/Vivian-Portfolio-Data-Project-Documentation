@@ -60,8 +60,6 @@ This mini project uses sample patient data to demonstrate how **SQL can be used*
 - **Secondary Objective 3:** Examine patient visit patterns across months to identify peak and low attendance periods.
 - **Secondary Objective 4:** Demonstrate practical SQL skills including aggregate functions, date functions, filtering, grouping, sorting, and data updates.
 
-> 💡 Every query in this project traces back to one of these objectives.
-
 ---
 
 ## 3. Project Scope & Tools
